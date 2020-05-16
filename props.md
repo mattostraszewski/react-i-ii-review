@@ -3,14 +3,19 @@
 Answer these on your own, then compare answers as a group
 
 1.  What are props?
+  An object that allows us to pass data from parent to child
 
 2.  How do you pass props from a parent to a child?
+  You assign an attribute to the component with the prop name and value. JSX
 
 3.  How do you access props from a class-based child component?
+  this.props.nameOfProp
 
 4.  How do you access props from a functional component?
+  Must pass props as parameter in the function.
 
 5.  How do you bind a function to a parent component so that it can be passed to a child?
+  Make function an arrow function to automatically bind it.
 
 ### Understand
 

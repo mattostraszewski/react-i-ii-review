@@ -3,24 +3,35 @@
 Answer these on your own, then compare answers as a group
 
 1.  What is React?
+  A javascript library that allows us to make dynamic SPA's. //what is an SPA?
 
 2.  What is create-react-app?
+  A package build by facebook to facilitate building apps in react and to standardize react apps by centralizing the dependencies.
 
 3.  What is Component Based Architecture?
+  Code is split into chunks called components. Makes code highly reusable and easy to debug.
 
 4.  What is JSX?
+  Special HTML-like syntax that allows us to write Javascript inside of it.
 
 5.  What is the virtual DOM?
+  A virtual copy of the browser DOM stored in memory that React uses to identify changes in the browser DOM in a process called reconcilliation.
 
 6.  What is unidirectional (one-way) data flow?
+  Data flows from parent to child.
 
 ### Understand
 
 Discuss these questions in pairs if you have a 4-person group
 
 7.  Summarize what happens when you run `create-react-app my-app`
+  Create a default blank react application called 'my-app'
 
 8.  Summarize the steps for forking and cloning a repo with an existing React app. How does this process differ from the process of creating a new React app on your laptop?
+  1) Fork it
+  2) Clone it
+  3) Navigate to the directory of your react app
+  4) run npm i
 
 9.  Explain what this code does:
 
@@ -41,6 +52,7 @@ export default Mentor;
 ```
 
 10.  Explain how data is passed from a parent component to a child component.
+  
 
 ### Apply
 
